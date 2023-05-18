@@ -8,16 +8,22 @@ h1{
 }
 
 .but1 {
+    color: #d94c17;
+    font-size: 16px;
+    font-family: 'Open Sans',Arial,sans-serif;
+    line-height: NaN;
+    font-weight: 700;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
     -webkit-appearance: none;
-    background-color: #eadeb6;
-    border: 0;
+    border: 2px solid #d94c17;
+    background: none;
     color: black;
     font-size: large;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    height: 40px;
+    height: 33px;
     width: 120px;
     border-radius: 16px;
     background-attachment: fixed;
@@ -30,7 +36,7 @@ h1{
     text-align: center;
 }
 h2{
-   color:  #eadeb6;
+    color: white;
 }
 .title{
     grid-column: 2/3;
@@ -47,4 +53,37 @@ img{
 }
 a{
     text-decoration: none;
+}
+ .tn-atom {
+    color: #d94c17;
+    font-size: 16px;
+    font-family: 'Open Sans',Arial,sans-serif;
+    line-height: NaN;
+    font-weight: 700;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, border-color 0.2s ease-in-out;
+}
+.btn-group a {
+    color: #d94c17;
+    text-decoration: none;
+}
+.t396 .tn-atom {
+    display: table-cell;
+    vertical-align: middle;
+    width: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+}
+.tn-atom__prx-wrapper{
+    height: 48px;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+}
+input::placeholder {
+    color: #d94c17;
+}
+.buttCalc{
+    color: #d94c17;
 }
