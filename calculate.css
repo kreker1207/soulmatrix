@@ -1,0 +1,23 @@
+body{
+    background-color: #150c0b;
+    color: white;
+    font-family: 'Open Sans',Arial,sans-serif;
+}
+.but1 {
+    -webkit-appearance: none;
+    background-color: #eadeb6;
+    border: 0;
+    color: black;
+    font-size: large;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    height: 40px;
+    width: 120px;
+    border-radius: 16px;
+    background-attachment: fixed;
+}
+a{
+    text-decoration: none;
+}
