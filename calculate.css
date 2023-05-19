@@ -7,7 +7,7 @@ element.style {
 }
 body {
     color: white!important;
-    background-image:url("./assets/matrixBack.png");
+    background-image:url("./matrixBack.jpg");
     background-size: contain;
     background-size: 100%;
     resize: both;

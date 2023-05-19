@@ -9,12 +9,18 @@ console.log("Name:", name);
 if (name) {
     document.getElementById("name").innerHTML = name; 
 }
-const date = new Date(birthday);
+console.log(birthday)
 
-const year = date.getFullYear();
-const month = date.getMonth() + 1; 
-const day = date.getDate();
+let year = 0;
+let month = 0;
+let day = 0;
 
+if (birthday !== undefined && birthday!== '') {
+    const date = new Date(birthday);
+    year = date.getFullYear();
+    month = date.getMonth() + 1;
+    day = date.getDate();
+}
 console.log(year); 
 console.log(month); 
 console.log(day);  
