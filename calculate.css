@@ -1,3 +1,4 @@
+
 element.style {
     fill: #afde61;
 }
@@ -5,35 +6,9 @@ element.style {
     -webkit-font-smoothing: antialiased;
     background-color: none;
 }
-body {
-    font-family: 'Open Sans',Arial,sans-serif;
-    color: white!important;
-    background-image:url("./matrixBack.jpg");
-    background-size: contain;
-    background-size: 111%;
-    resize: both;
-    background-position: center;
-    font-family: Georgia,'Times New Roman',Times,serif!important;
-}
-
-#matrix{
-    float: left;
-    margin-left: 1%;
-    margin-top: 25px;
-    width: 100%;
-    max-width: 800px;
-    min-width: 380px;
-}
-svg:not(:root) {
-    overflow-clip-margin: content-box;
-    overflow: visible;
-}
-.t-rec {
-    word-break: normal !important;
-}
-#allrecords {
-    -webkit-font-smoothing: antialiased;
-    background-color: none;
+#prednazn {
+    font-size: 70%;
+    margin-bottom: 20px;
 }
 .cls-1 {
     fill: white;
@@ -289,6 +264,40 @@ tr {
     background: #241301!important;
     font-weight: bold!important;
 }
+
+@media screen and (min-width: 1160px) {
+body {
+    font-family: 'Open Sans',Arial,sans-serif;
+    color: white!important;
+    background-image:url("./matrixBack.jpg");
+    background-size: contain;
+    background-size: 111%;
+    resize: both;
+    background-position: center;
+    font-family: Georgia,'Times New Roman',Times,serif!important;
+}
+
+#matrix{
+    float: left;
+    margin-left: 1%;
+    margin-top: 25px;
+    width: 100%;
+    max-width: 800px;
+    min-width: 380px;
+}
+
+svg:not(:root) {
+    overflow-clip-margin: content-box;
+    overflow: visible;
+}
+.t-rec {
+    word-break: normal !important;
+}
+#allrecords {
+    -webkit-font-smoothing: antialiased;
+    background-color: none;
+}
+
 .main{
     display: grid;
     grid-template: 1fr 1fr 1fr;
@@ -336,4 +345,222 @@ tr {
 
 element.style {
     height: 5px;
+}
+}
+@media screen and (max-width: 1160px) {
+    body {
+        font-family: 'Open Sans', Arial, sans-serif;
+        color: white !important;
+        background-image: url("./matrixBack.jpg");
+        background-size: contain;
+        background-size: 111%;
+        resize: both;
+        background-position: center;
+        font-family: Georgia, 'Times New Roman', Times, serif !important;
+        display: grid;
+        grid-template: auto;
+    }
+    
+    .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    
+    #matrix {
+        float: none;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        width: 100%;
+        max-width: 800px;
+        min-width: 380px;
+    }
+    
+    svg:not(:root) {
+        overflow-clip-margin: content-box;
+        overflow: visible;
+    }
+    
+    .t-rec {
+        word-break: normal !important;
+    }
+    
+    .cls-1 {
+        fill: white;
+    }
+    
+    .cls-1 {
+        isolation: isolate;
+    }
+    
+    /* Modify the styles for mobile devices */
+    .pento {
+        grid-row: 1/3;
+        grid-column-start: auto;
+        grid-column-end: auto;
+        justify-items: center;
+    }
+    
+    .table {
+        float: none;
+        margin-left: 5%;
+        margin-right: 10%;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        width: 90%;
+        grid-row: 3/3;
+        grid-column-start: auto;
+        grid-column-end: auto;
+        justify-items: center;
+        margin-bottom: 10px;
+        min-width: 530px;
+    }
+    
+    .info-txt {
+        float: none;
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        width: 100%;
+        grid-row: 2/3;
+        grid-column-start: auto;
+        grid-column-end: auto;
+        
+    }
+    
+    #table1 {
+        margin-top: 30px;
+        width: 100%;
+    }
+    
+    #nebo1,
+    #zemlia1,
+    #for_self1,
+    #male1,
+    #female1,
+    #socium1,
+    #duhovnoe1,
+    #planetarnoe1 {
+        border: 2px solid #eadeb6;
+        border-radius: 50%;
+        width: 34px;
+        height: 34px;
+        display: inline-block;
+        text-align: center;
+        line-height: 30px;
+    }
+    
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        font-family: 'Open Sans', Arial, sans-serif;
+        color: white !important;
+        background-image: url("./matrixBack.jpg");
+        background-size: contain;
+        background-size: 111%;
+        resize: both;
+        background-position: center;
+        font-family: Georgia, 'Times New Roman', Times, serif !important;
+        display: grid;
+        grid-template: auto;
+    }
+    
+    .menu {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    
+    #matrix {
+        float: none;
+        margin-left: 1%;
+        margin-right: 10%;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        width: 100%;
+        max-width: 800px;
+        min-width: 380px;
+    }
+    
+    svg:not(:root) {
+        overflow-clip-margin: content-box;
+        overflow: visible;
+    }
+    
+    .t-rec {
+        word-break: normal !important;
+    }
+    
+    .cls-1 {
+        fill: white;
+    }
+    
+    .cls-1 {
+        isolation: isolate;
+    }
+    
+    /* Modify the styles for mobile devices */
+    .pento {
+        grid-row: 1/3;
+        grid-column-start: auto;
+        grid-column-end: auto;
+        justify-items: center;
+    }
+    
+    .table {
+        float: none;
+        margin-left: 3%;
+        margin-right: 10%;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        width: 90%;
+        grid-row: 3/3;
+        grid-column-start: auto;
+        grid-column-end: auto;
+        justify-items: center;
+        margin-bottom: 10px;
+        min-width: 530px;
+    }
+    
+    .info-txt {
+        float: none;
+        margin-left: 5%;
+        margin-right: 10%;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        width: 100%;
+        grid-row: 2/3;
+        grid-column-start: auto;
+        grid-column-end: auto;
+        
+    }
+    
+    #table1 {
+        margin-top: 30px;
+        width: 100%;
+    }
+    
+    #nebo1,
+    #zemlia1,
+    #for_self1,
+    #male1,
+    #female1,
+    #socium1,
+    #duhovnoe1,
+    #planetarnoe1 {
+        border: 2px solid #eadeb6;
+        border-radius: 50%;
+        width: 34px;
+        height: 34px;
+        display: inline-block;
+        text-align: center;
+        line-height: 30px;
+    }
+
 }
